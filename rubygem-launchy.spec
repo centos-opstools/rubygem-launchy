@@ -2,7 +2,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 2.4.3
-Release: 3%{?dist}
+Release: 4%{?dist}
 Summary: Helper class for cross-platform launching of applications
 Group: Development/Languages
 License: ISC
@@ -88,6 +88,9 @@ popd
 %{gem_instdir}/tasks
 
 %changelog
+* Mon Mar 19 2018 Matthias Runge <mrunge@redhat.com> - 2.4.3-4
+- bump NVR to trigger builds
+
 * Thu Jul 27 2017 Fedora Release Engineering <releng@fedoraproject.org> - 2.4.3-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
 
